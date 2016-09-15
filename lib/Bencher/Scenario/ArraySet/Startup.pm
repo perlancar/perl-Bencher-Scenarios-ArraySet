@@ -14,6 +14,7 @@ our $scenario = {
     },
     participants => [
         {module=>'Array::Set'},
+        {module=>'Set::Object'},
     ],
     on_failure => 'skip',
 };
