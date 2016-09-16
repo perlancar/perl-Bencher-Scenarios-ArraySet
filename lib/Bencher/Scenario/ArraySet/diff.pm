@@ -18,6 +18,11 @@ our $scenario = {
             function => 'difference',
             code_template => 'my $set1 = Set::Object->new; $set1->insert(@{<set1>}); my $set2 = Set::Object->new; $set2->insert(@{<set2>}); my $res = $set1->difference($set2);', # $res->as_string
         },
+        {
+            module => 'Set::Scalar',
+            function => 'difference',
+            code_template => 'my $set1 = Set::Scalar->new; $set1->insert(@{<set1>}); my $set2 = Set::Scalar->new; $set2->insert(@{<set2>}); my $res = $set1->difference($set2);', # $res->as_string
+        },
     ],
     datasets => [
         { name => '1_1'  , args => { set1=>[1], set2=>[1] } },
