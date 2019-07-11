@@ -1,4 +1,4 @@
-0.003   2017-01-25 (PERLANCAR)
+0.003   2017-01-25  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -7,7 +7,7 @@
           type=x_benchmarks.
 
 
-0.002   2016-09-16 (PERLANCAR)
+0.002   2016-09-16  Released-By: PERLANCAR
 
         - Replace Array-Set-0.03 in the archive with Array-Set-0.05.
 
@@ -16,6 +16,6 @@
         - Add participant: Set::Scalar.
 
 
-0.001   2016-09-15 (PERLANCAR)
+0.001   2016-09-15  Released-By: PERLANCAR
 
         - First release.
